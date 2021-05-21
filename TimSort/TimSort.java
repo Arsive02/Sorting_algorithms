@@ -69,14 +69,12 @@ public class TimSort {
             }
             k++;
         }
-        // Copy remaining elements of left, if any
         while (i < len1)
         {
             arr[k] = left[i];
             k++;
             i++;
         }
-        // Copy remaining element of right, if any
         while (j < len2)
         {
             arr[k] = right[j];
@@ -87,7 +85,7 @@ public class TimSort {
         System.out.println("Right Array: "+ Arrays.toString(right));
     }
 
-    // Iterative Tim sort function to sort the array[0...n-1]
+    //Tim sort function to sort the array[0...n-1]
     public static void timSort(int[] arr, int n)
     {
         int minRun = minRunLength(RUN);
@@ -102,13 +100,8 @@ public class TimSort {
         // Start merging from size RUN (or 32).
         for (int size = minRun; size < n; size = 2 * size)
         {
-            // Pick starting point of left sub array. We are going to merge
-            // arr[left..left+size-1] and arr[left+size, left+2*size-1]
-            // After every merge, we increase left by 2*size
             for (int left = 0; left < n; left += 2 * size)
             {
-                // Find ending point of left sub array
-                // mid+1 is starting point of right sub array
                 int mid = left + size - 1;
                 int right = Math.min((left + 2 * size - 1), (n - 1));
 
