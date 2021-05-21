@@ -1,0 +1,48 @@
+D:\SOFTWARES\Java_amazon_corretto-11\jdk11.0.11_9\bin\java.exe "-javaagent:D:\SOFTWARES\Java_amazon_corretto-11\IntelliJ IDEA Community Edition 2021.1.1\lib\idea_rt.jar=65424:D:\SOFTWARES\Java_amazon_corretto-11\IntelliJ IDEA Community Edition 2021.1.1\bin" -Dfile.encoding=UTF-8 -classpath D:\Companies\Zoho\SortingAlgo\out\production\untitled104 com.company.QuickSort
+ARRAY BEFORE SORTING: [9, 1, 3, 4, 2, 8, 7, 6, 5, 0]
+
+
+low: 0, high: 9
+[0, 1, 3, 4, 2, 6, 5, 7, 9, 8]
+Pivot: 7
+
+low: 0, high: 6
+[2, 1, 0, 3, 4, 6, 5, 7, 9, 8]
+Pivot: 3
+
+low: 0, high: 2
+[0, 1, 2, 3, 4, 6, 5, 7, 9, 8]
+Pivot: 1
+
+low: 0, high: 0
+[0, 1, 2, 3, 4, 6, 5, 7, 9, 8]
+Pivot: 0
+
+low: 2, high: 2
+[0, 1, 2, 3, 4, 6, 5, 7, 9, 8]
+Pivot: 2
+
+low: 4, high: 6
+[0, 1, 2, 3, 4, 6, 5, 7, 9, 8]
+Pivot: 4
+
+low: 5, high: 6
+[0, 1, 2, 3, 4, 5, 6, 7, 9, 8]
+Pivot: 6
+
+low: 5, high: 5
+[0, 1, 2, 3, 4, 5, 6, 7, 9, 8]
+Pivot: 5
+
+low: 8, high: 9
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Pivot: 9
+
+low: 8, high: 8
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Pivot: 8
+
+ARRAY AFTER SORTING: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Execution time in milliseconds: 32
+
+Process finished with exit code 0
