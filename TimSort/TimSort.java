@@ -11,8 +11,6 @@ public class TimSort {
     public static int minRunLength(int n)
     {
         assert n >= 0;
-
-        // Becomes 1 if any 1 bits are shifted off
         int r = 0;
         while (n >= RUN)
         {
