@@ -1,0 +1,20 @@
+D:\SOFTWARES\Java_amazon_corretto-11\jdk11.0.11_9\bin\java.exe "-javaagent:D:\SOFTWARES\Java_amazon_corretto-11\IntelliJ IDEA Community Edition 2021.1.1\lib\idea_rt.jar=49297:D:\SOFTWARES\Java_amazon_corretto-11\IntelliJ IDEA Community Edition 2021.1.1\bin" -Dfile.encoding=UTF-8 -classpath D:\Companies\Zoho\SortingAlgo\out\production\untitled104 com.company.TimSort
+Initial Array: [58, 10, 46, 25, 5, 80, 69, 81, 94, 87, 51, 27, 77, 91, 26, 18, 51, 24, 66, 26, 76, 56, 22, 46, 29, 73, 38, 7, 64, 22, 29, 76, 14, 85, 25, 63, 63, 27, 97, 69]
+Insertion sorting for array of length less than 32: [5, 7, 10, 18, 22, 22, 24, 25, 26, 26, 27, 29, 29, 38, 46, 46, 51, 51, 56, 58, 64, 66, 69, 73, 76, 76, 77, 80, 81, 87, 91, 94, 14, 85, 25, 63, 63, 27, 97, 69]
+
+Insertion sorting for array of length less than 32: [5, 7, 10, 18, 22, 22, 24, 25, 26, 26, 27, 29, 29, 38, 46, 46, 14, 25, 27, 51, 51, 56, 58, 63, 63, 64, 66, 69, 69, 73, 76, 76, 77, 80, 81, 85, 87, 91, 94, 97]
+
+Insertion sorting for array of length less than 32: [5, 7, 10, 18, 22, 22, 24, 25, 26, 26, 27, 29, 29, 38, 46, 46, 14, 25, 27, 51, 51, 56, 58, 63, 63, 64, 66, 69, 69, 73, 76, 76, 77, 80, 81, 85, 87, 91, 94, 97]
+
+Left Array: [5, 7, 10, 18, 22, 22, 24, 25, 26, 26, 27, 29, 29, 38, 46, 46]
+Right Array: [14, 25, 27, 51, 51, 56, 58, 63, 63, 64, 66, 69, 69, 73, 76, 76]
+After merging: [5, 7, 10, 14, 18, 22, 22, 24, 25, 25, 26, 26, 27, 27, 29, 29, 38, 46, 46, 51, 51, 56, 58, 63, 63, 64, 66, 69, 69, 73, 76, 76, 77, 80, 81, 85, 87, 91, 94, 97]
+
+Left Array: [5, 7, 10, 14, 18, 22, 22, 24, 25, 25, 26, 26, 27, 27, 29, 29, 38, 46, 46, 51, 51, 56, 58, 63, 63, 64, 66, 69, 69, 73, 76, 76]
+Right Array: [77, 80, 81, 85, 87, 91, 94, 97]
+After merging: [5, 7, 10, 14, 18, 22, 22, 24, 25, 25, 26, 26, 27, 27, 29, 29, 38, 46, 46, 51, 51, 56, 58, 63, 63, 64, 66, 69, 69, 73, 76, 76, 77, 80, 81, 85, 87, 91, 94, 97]
+
+Sorted Array: [5, 7, 10, 14, 18, 22, 22, 24, 25, 25, 26, 26, 27, 27, 29, 29, 38, 46, 46, 51, 51, 56, 58, 63, 63, 64, 66, 69, 69, 73, 76, 76, 77, 80, 81, 85, 87, 91, 94, 97]
+Execution time in milliseconds: 16
+
+Process finished with exit code 0
